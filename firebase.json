@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/student-by-photo",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+img {
+  width: 150px;
+  height: 180px;
+}
+.student-invisible {
+  background-color: #000;
+  width: 150px;
+  height: 180px;
+  margin: 10px 5px;
+  padding: 0;
+  border: 1px solid white;
+}
+.student-invisible:hover {
+  background-color: rgb(138, 136, 136);
+  cursor: pointer;
+}
