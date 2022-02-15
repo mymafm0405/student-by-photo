@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  background-color: #800000;
+  background-image: url("../src/assets/bg2.png");
+  background-size: 100%;
+  height: 1100px;
 }

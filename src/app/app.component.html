@@ -1,9 +1,18 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12 text-center">
-      <h1 class="title">2D مــبدعــات</h1>
+      <img
+        src="../assets/title2.png"
+        class="img-responsive img-title"
+        alt="title"
+      />
+      <!-- <h1 class="title">2D مــبدعــات</h1> -->
     </div>
   </div>
   <div class="row student-row">
-    <app-student *ngFor="let student of students; let i =index" [studentIndex]="i+1"></app-student>
+    <app-student
+      *ngFor="let student of students; let i = index"
+      [studentIndex]="i + 1"
+    ></app-student>
   </div>
+</div>

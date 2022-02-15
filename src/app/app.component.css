@@ -1,8 +1,14 @@
 .student-row {
   margin-top: 20px;
+  padding-left: 180px;
+  padding-right: 180px;
 }
 .title {
   color: white;
   font-size: 80px;
 }
-
+.img-title {
+  margin: 0 auto;
+  margin-top: 80px;
+  height: 250px;
+}

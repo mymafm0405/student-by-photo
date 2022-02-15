@@ -4,13 +4,16 @@ img {
 }
 .student-invisible {
   background-color: #000;
-  width: 150px;
-  height: 180px;
+  width: 162px;
+  height: 192px;
   margin: 10px 5px;
   padding: 0;
-  border: 1px solid white;
+  border: 6px solid #ff3939;
 }
 .student-invisible:hover {
   background-color: rgb(138, 136, 136);
   cursor: pointer;
 }
+/* .student-img {
+  height: 150px;
+} */
