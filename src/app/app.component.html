@@ -10,6 +10,7 @@
     </div>
   </div>
   <div class="row student-row">
+    <img *ngIf="showWinner" class="winner" [src]="'../assets/win3.jpg'" />
     <app-student
       *ngFor="let student of students; let i = index"
       [studentIndex]="i + 1"

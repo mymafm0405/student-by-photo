@@ -6,13 +6,25 @@ img {
   background-color: #000;
   width: 162px;
   height: 192px;
-  margin: 10px 5px;
+  margin: 15px 5px;
   padding: 0;
+}
+.green-border {
+  border: 6px solid #00db00;
+}
+.yellow-border {
+  border: 6px solid yellow;
+}
+.red-border {
   border: 6px solid #ff3939;
 }
 .student-invisible:hover {
   background-color: rgb(138, 136, 136);
   cursor: pointer;
+}
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 /* .student-img {
   height: 150px;

@@ -1,8 +1,19 @@
-<div class="col-md-2 student-invisible img-circle" (click)="onStudentClick()">
+<div class="col-md-2 student-invisible img-circle text-center" [ngClass]="{'green-border': studentIndex <= 9, 'yellow-border': studentIndex > 9 && studentIndex <= 18, 'red-border': studentIndex > 18 && studentIndex <= 27}">
   <img
     *ngIf="showImage"
     [src]="'../assets/students/' + studentIndex + '.jpg'"
     alt="studentImage"
+    (click)="onStudentClick()"
     class="img-circle student-img"
   />
+  <img
+    *ngIf="!showImage"
+    [src]="'../assets/black.png'"
+    alt="black"
+    class="img-circle student-img"
+    (click)="onStudentClick()"
+  />
+  <button (click)="onHide()">
+    <img [src]="'../assets/hide.png'" style="width: 20px; height: 20px" />
+  </button>
 </div>

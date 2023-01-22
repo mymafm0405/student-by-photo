@@ -8,11 +8,15 @@ import { StudentsService } from './students.service';
 })
 export class AppComponent implements OnInit{
   students = [];
+  showWinner = false;
 
   constructor(private studentsService: StudentsService) {}
 
   ngOnInit() {
     this.students = this.studentsService.getStudents();
+    this.studentsService.activateWinner.subscribe((data) => {
+      this.showWinner = data;
+    })
   }
 
 
